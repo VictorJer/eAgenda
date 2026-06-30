@@ -11,7 +11,7 @@ public class ContatoController : Controller
     private readonly ServicoContato servicoContato;
     private readonly IMapper mapper;
 
-    public ContatoController(ServiceCollection servicoContato, IMapper mapper)
+    public ContatoController(ServicoContato servicoContato, IMapper mapper)
     {
         this.servicoContato = servicoContato;
         this.mapper = mapper;
