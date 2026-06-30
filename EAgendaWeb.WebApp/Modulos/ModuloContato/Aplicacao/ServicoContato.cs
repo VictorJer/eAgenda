@@ -113,4 +113,9 @@ public class ServicoContato
 
         return Result.Ok();
     }
+
+    public static implicit operator ServicoContato(ServiceCollection v)
+    {
+        throw new NotImplementedException();
+    }
 }
