@@ -47,7 +47,7 @@ public record EditarContatoViewModel(
     string? Empresa
 );
 
-public record ExcluirViewModel(
+public record ExcluirContatoViewModel(
     Guid Id,
     string Nome,
     string Email,
